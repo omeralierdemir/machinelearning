@@ -1,8 +1,11 @@
 import pandas as pd
+import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+import statsmodels.formula.api as sm
+#import statsmodels.formula.api as sm
 
 le = LabelEncoder()
 
@@ -33,7 +36,7 @@ ulkeDFrame = pd.DataFrame(data=ulke,index=range(22),columns=["fr","tr","us"])
 digerDFrame = pd.DataFrame(data=diger,index=range(22),columns=["boy","kilo","yas"])
 cinsiyetDFrame = pd.DataFrame(data=cinsiyet[:,0:1],columns=["cinsiyet"])# burada dummy trap a düşmemek için teki seçildi. direk label encoder almanda yeterli
                                                                         #olacaktır.
-print(type(ulkeDFrame))
+#print(type(ulkeDFrame))
 #print(digerDFrame)
 #print(cinsiyetDFrame)
 
@@ -74,5 +77,30 @@ regression.fit(x_train2,y_train2)
 
 boy_pred = regression.predict(x_test2)
 
-print(y_test2)
-print(boy_pred)
+#print(y_test2)
+#print(boy_pred)
+
+
+
+#-----------------backwardElimination----------------------------
+
+
+X = np.append(arr=np.ones((22,1)).astype(int),values=newData,axis=1) # birebirlik array oluşturuldu int türünde, newData arrayine yukardan aşağı şeklinde eklendi
+#print(X)
+X_l = newData.iloc[:,[0,1,2,3,4,5]].values  # daha sonradan üzerinde oynma yapabilmek için bir dizi şeklinde aldık
+print(type (X_l))  # burada yapılan asıl olay tam olarak bizim multilinner regrestion modelimizde y = B + B1X1 + B2X2 +  B3X3 ... bir denklem var. Bu denklem
+                # için elimizde bağımsız değişkenlerimiz bulunmakta ama ilgi B sabiti yok bu sabiti de ekleyebilmek için 1 lerden oluşan bir
+                # sutun ekledik. Bu sutun 1 lerden oluşma sebebi katsayısını 1 olmasıdır.
+
+boyArray = boyDFrame.iloc[:,0:1].values
+result_OLS = sm.OLS(endog=boyArray,exog=X_l) # boy verisine göre diğer değişkenlerin bilgilerini "Ols raporu"(koveryans varyans p_value vb.) çıkarıyor. Bu çıkarma işleminin
+r = result_OLS.fit()                        # gerçekleşmesi için fit() demen lazım.
+
+print(r.summary()) # çıkarılan değerlerin özeti. Buradan P_value olan en büyük değeri elemeliyiz.
+
+X_l2 = newData.iloc[:,[1,2,3,4,5]].values
+result_OLS2 = sm.OLS(endog=boyArray,exog=X_l2) # burada 0. index deki değeri eledik. Bu şekilde devam etcek. Genelde 0.05 altında olana kadar eleme işlemi devam eder
+
+r2 = result_OLS2.fit()
+
+print(r2.summary())
