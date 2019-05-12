@@ -8,22 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9d4583f-6c37-4e4d-8c05-744e7172092f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/BreadBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/BreadBoard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/DecisionTreeForPrediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/DecisionTreeForPrediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/MultiLinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/MultiLinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/MultiLinearRegression2" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/MultiLinearRegression2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/MultiLinearRegression3.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/MultiLinearRegression3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/OneHotEncoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/OneHotEncoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/PolynominalRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/PolynominalRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/RandomForest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/RandomForest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/SimpleLinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/SimpleLinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/SupportVectorRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/SupportVectorRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/VeriBirlestirme.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/VeriBirlestirme.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalismaDizini/VeriEkle.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Regression/VeriEkle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veriler/maaslar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Veriler/maaslar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veriler/odev_tenis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Veriler/odev_tenis.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veriler/satislar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Veriler/satislar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veriler/veriler.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CalismaDizini/Veriler/veriler.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +20,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalismaDizini/DeepLearning/ann.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
+            <state relative-caret-position="280">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -163,7 +147,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -335,7 +319,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5141643" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5141643" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalismaDizini/DeepLearning/ann.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
+        <state relative-caret-position="280">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
