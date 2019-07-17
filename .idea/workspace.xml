@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9d4583f-6c37-4e4d-8c05-744e7172092f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apriori.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apyori.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,25 +22,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalismaDizini/Clustering/Kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="504">
               <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalismaDizini/Clustering/HirarsikDendogram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
-                <element signature="e#117#135#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CalismaDizini/Clustering/HirarsikDendogram.py">
+        <entry file="file://$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apriori.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="126">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apyori.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="249" column="11" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalismaDizini/Veriler/sepet.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -91,6 +116,7 @@
         <option value="$PROJECT_DIR$/CalismaDizini/ReinforcedLearning/Thampson.py" />
         <option value="$PROJECT_DIR$/CalismaDizini/Clustering/Kmeans.py" />
         <option value="$PROJECT_DIR$/CalismaDizini/Clustering/HirarsikDendogram.py" />
+        <option value="$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apriori.py" />
       </list>
     </option>
   </component>
@@ -104,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +142,12 @@
               <item name="machinelearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machinelearning" type="462c0819:PsiDirectoryNode" />
               <item name="CalismaDizini" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machinelearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machinelearning" type="462c0819:PsiDirectoryNode" />
+              <item name="CalismaDizini" type="462c0819:PsiDirectoryNode" />
+              <item name="AssociationRuleMining" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machinelearning" type="b2602c69:ProjectViewProjectNode" />
@@ -150,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,15 +190,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Desktop\pyProject\machinelearning\CalismaDizini\Veriler" />
-      <recent name="C:\Users\USER\Desktop\pyProject\machinelearning\Veriler" />
-      <recent name="$PROJECT_DIR$/Veriler" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\Desktop\pyProject\machinelearning\CalismaDizini" />
       <recent name="C:\Users\USER\Desktop\pyProject\machinelearning\CalismaDizini\DeepLearning" />
       <recent name="C:\Users\USER\Desktop\pyProject\machinelearning\CalismaDizini\Regression" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\pyProject\machinelearning\CalismaDizini\Veriler" />
+      <recent name="C:\Users\USER\Desktop\pyProject\machinelearning\CalismaDizini\AssociationRuleMining" />
+      <recent name="C:\Users\USER\Desktop\pyProject\machinelearning\Veriler" />
+      <recent name="$PROJECT_DIR$/Veriler" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -181,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HirarsikDendogram">
+  <component name="RunManager" selected="Python.apriori">
     <configuration name="HirarsikDendogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,27 +249,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalismaDizini/Clustering/Kmeans.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RandomSelection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CalismaDizini/ReinforcedLearning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalismaDizini/ReinforcedLearning/RandomSelection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,20 +299,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CalismaDizini/AssociationRuleMining" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apriori.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.RandomSelection" />
       <item itemvalue="Python.UCB" />
       <item itemvalue="Python.Thampson" />
       <item itemvalue="Python.Kmeans" />
       <item itemvalue="Python.HirarsikDendogram" />
+      <item itemvalue="Python.apriori" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.apriori" />
         <item itemvalue="Python.HirarsikDendogram" />
         <item itemvalue="Python.Kmeans" />
         <item itemvalue="Python.Thampson" />
         <item itemvalue="Python.UCB" />
-        <item itemvalue="Python.RandomSelection" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +352,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123595506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -365,6 +399,11 @@
           <url>file://$PROJECT_DIR$/CalismaDizini/Clustering/HirarsikDendogram.py</url>
           <line>18</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apriori.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -644,11 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalismaDizini/Clustering/Kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="504">
           <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <element signature="e#117#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,9 +694,29 @@
     <entry file="file://$PROJECT_DIR$/CalismaDizini/Clustering/HirarsikDendogram.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalismaDizini/Veriler/sepet.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apyori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="249" column="11" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apriori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
