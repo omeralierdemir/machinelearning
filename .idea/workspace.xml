@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9d4583f-6c37-4e4d-8c05-744e7172092f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apriori.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apyori.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +38,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apriori.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalismaDizini/Classification/LogisticRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CalismaDizini/XGBoost/XGBoost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalismaDizini/DeepLearning/ann.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="30" lean-forward="true" selection-start-line="12" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +114,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ap</find>
+      <find>apriori</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -106,7 +146,6 @@
         <option value="$PROJECT_DIR$/CalismaDizini/DeepLearning.py" />
         <option value="$PROJECT_DIR$/CalismaDizini/DeepLearning/DeepLearning.py" />
         <option value="$PROJECT_DIR$/CalismaDizini/DeepLearning/ann.py" />
-        <option value="$PROJECT_DIR$/CalismaDizini/Classification/LogisticRegression.py" />
         <option value="$PROJECT_DIR$/CalismaDizini/Classification/NaiveBayes.py" />
         <option value="$PROJECT_DIR$/CalismaDizini/Classification/DecisionTree.py" />
         <option value="$PROJECT_DIR$/CalismaDizini/Classification/RandomForest.py" />
@@ -117,6 +156,8 @@
         <option value="$PROJECT_DIR$/CalismaDizini/Clustering/Kmeans.py" />
         <option value="$PROJECT_DIR$/CalismaDizini/Clustering/HirarsikDendogram.py" />
         <option value="$PROJECT_DIR$/CalismaDizini/AssociationRuleMining/apriori.py" />
+        <option value="$PROJECT_DIR$/CalismaDizini/Classification/LogisticRegression.py" />
+        <option value="$PROJECT_DIR$/CalismaDizini/XGBoost/XGBoost.py" />
       </list>
     </option>
   </component>
@@ -142,12 +183,6 @@
               <item name="machinelearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machinelearning" type="462c0819:PsiDirectoryNode" />
               <item name="CalismaDizini" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machinelearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machinelearning" type="462c0819:PsiDirectoryNode" />
-              <item name="CalismaDizini" type="462c0819:PsiDirectoryNode" />
-              <item name="AssociationRuleMining" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machinelearning" type="b2602c69:ProjectViewProjectNode" />
@@ -214,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.apriori">
+  <component name="RunManager" selected="Python.XGBoost">
     <configuration name="HirarsikDendogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,7 +292,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Thampson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LogisticRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,11 +300,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CalismaDizini/ReinforcedLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CalismaDizini/Classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalismaDizini/ReinforcedLearning/Thampson.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalismaDizini/Classification/LogisticRegression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +313,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UCB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="XGBoost" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,11 +321,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CalismaDizini/ReinforcedLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CalismaDizini/XGBoost" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalismaDizini/ReinforcedLearning/UCB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalismaDizini/XGBoost/XGBoost.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,19 +356,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.UCB" />
-      <item itemvalue="Python.Thampson" />
       <item itemvalue="Python.Kmeans" />
       <item itemvalue="Python.HirarsikDendogram" />
       <item itemvalue="Python.apriori" />
+      <item itemvalue="Python.LogisticRegression" />
+      <item itemvalue="Python.XGBoost" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.XGBoost" />
+        <item itemvalue="Python.LogisticRegression" />
         <item itemvalue="Python.apriori" />
         <item itemvalue="Python.HirarsikDendogram" />
         <item itemvalue="Python.Kmeans" />
-        <item itemvalue="Python.Thampson" />
-        <item itemvalue="Python.UCB" />
       </list>
     </recent_temporary>
   </component>
@@ -521,16 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalismaDizini/DeepLearning/ann.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CalismaDizini/Regression/MultiLinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -551,9 +576,6 @@
           <caret line="234" selection-start-line="234" selection-end-line="234" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalismaDizini/Veriler/Churn_Modelling.csv">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CalismaDizini/Regression/PolynominalRegression.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -621,16 +643,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalismaDizini/ReinforcedLearning.py" />
-    <entry file="file://$PROJECT_DIR$/CalismaDizini/Classification/LogisticRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CalismaDizini/Classification/RandomForest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -717,6 +729,41 @@
           <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalismaDizini/Classification/LogisticRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalismaDizini/Veriler/Churn_Modelling.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalismaDizini/DeepLearning/ann.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="30" lean-forward="true" selection-start-line="12" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalismaDizini/XGBoost/XGBoost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
